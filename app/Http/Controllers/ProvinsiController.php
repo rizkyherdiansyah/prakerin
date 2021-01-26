@@ -27,6 +27,12 @@ class ProvinsiController extends Controller
  
     public function store(Request $request)
     {
+        //Validasi
+        $this->validate($request,[
+            'kode_provinsi' => 'required',
+            'nama_provinsi' => 'required|min:5|max:20',
+         ]);
+
        $provinsi = new Provinsi();
        $provinsi->kode_provinsi =$request->kode_provinsi;
        $provinsi->nama_provinsi =$request->nama_provinsi;
