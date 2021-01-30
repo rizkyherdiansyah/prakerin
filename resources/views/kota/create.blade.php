@@ -14,6 +14,7 @@
                 <label for="exampleInputEmail1" class="form-label">Kode Kota</label>
                 <input type="text" name="kode_kota" class="form-control">  
             </div>
+         
             <div class="mb-3">
                 <label for="text" class="form-label">Nama Kota</label>
                 <input type="text" name="nama_kota" class="form-control">

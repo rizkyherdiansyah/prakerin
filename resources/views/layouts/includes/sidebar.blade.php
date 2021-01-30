@@ -55,7 +55,13 @@
                 <a href="rw" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Rw</p>
-                </a>                            
+                </a>    
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="kasus2" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Kasus IND</p>
+                </a>                                      
           </li>
           <li>
           <li>

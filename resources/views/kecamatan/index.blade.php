@@ -7,7 +7,7 @@
 
          <div class="card-body">
 
-         <a href="{{route('kecamatan.create')}}"class="btn btn-info"><b>Tambah Data</b></a>   
+         <a href="{{route('kecamatan.create')}}"class="btn btn-info float-right"><b>Tambah Data</b></a>   
 
 
 

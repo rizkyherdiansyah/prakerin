@@ -14,6 +14,16 @@
                 <label for="" class="form-label">Nama Kelurahan</label>
                 <input type="text" name="nama_kelurahan" class="form-control">
             </div>
+            <br>
+            @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                      <ul>
+                         @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                      </ul>
+                     </div>
+                @endif
             <div class="mb-3">
                 <label for="">Nama Kecamatan</label>
                 <select name="id_kecamatan" class="form-control">

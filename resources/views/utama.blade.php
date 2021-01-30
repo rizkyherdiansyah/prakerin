@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                        <p>Ini Adalah Halaman Utama</p>
+                        <p>Ini Adalah Halaman Admin</p>
                         @yield ('content')
                 </div>
             </div>

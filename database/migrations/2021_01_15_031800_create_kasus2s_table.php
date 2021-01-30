@@ -19,7 +19,7 @@ class CreateKasus2sTable extends Migration
             $table->integer('jumlah_positif');
             $table->integer('jumlah_sembuh');
             $table->integer('jumlah_meninggal');
-            $table->date('tgl_update');
+            $table->date('tanggal');
             $table->foreign('id_rw')->references('id')->on('rws')->onDelete('cascade');
             $table->timestamps();
         });

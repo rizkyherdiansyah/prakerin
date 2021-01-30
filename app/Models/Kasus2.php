@@ -1,14 +1,14 @@
 <?php
 
 namespace App\Models;
-App\Rw;
+
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Kasus2 extends Model
 {
-    protected $fillable = ['jml_positif','jml_meninggal','jml_sembuh','tanggal','id_rw'];
+    protected $fillable = ['jumlah_positif','jumlah_meninggal','jumlah_sembuh','tanggal','id_rw'];
     public $timestamps = true;
 
     public function Rw()

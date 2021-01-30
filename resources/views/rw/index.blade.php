@@ -10,13 +10,12 @@
          <a href="{{route('rw.create')}}"class="btn btn-info float-right"><b>Tambah Data</b></a>   
 
 
-
                     <table class="table">
                         <thead>
                             <tr>
                               <th scope="col">No</th>
-                              <th scope="col">Nama</th>
-                              <th scope="col">Kelurahan</th>
+                              <th scope="col">Rw</th>
+                              <th scope="col">Nama Kelurahan</th>
                               <th scope="col">Action</th>
                                     
                                 </tr>

@@ -65,6 +65,7 @@
       demo.initChartsPages();
     });
   </script>
+  @livewireScripts
 </body>
 
 </html>

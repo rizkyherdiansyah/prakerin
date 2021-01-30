@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rw extends Model
 {
-    protected $fillable = ['nama','id_kelurahan'];
+    protected $fillable = ['rw','id_kelurahan'];
     public $timestamps = true;
 
     public function Kelurahan()
