@@ -20,6 +20,7 @@
                         <label for="" class="form-label">Rw</label>
                         <input type="text" name="nama"  value="{{$rw->nama}}" class="form-control" id="" readonly>
                     </div>
+                    <a href="{{url()->previous()}}" class="btn btn-primary">Kembali</button></a>
                 </div>
             </div>
         </div>

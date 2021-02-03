@@ -12,6 +12,14 @@
             @csrf
             @method('PUT')
             <div class="mb-3">
+                <label for="">RW</label>
+                <select name="id_rw" class="form-control"> 
+                    @foreach ($rw as $data)
+                        <option value="{{$data->id}}" >{{$data->nama}}</option>
+                    @endforeach
+                </select>        
+            </div>
+            <div class="mb-3">
                 <label for="" class="form-label">Jumlah Positif</label>
                 <input type="text" name="jumlah_positif" class="form-control" value="{{$kasus2->jumlah_positif}}" >
             </div>
