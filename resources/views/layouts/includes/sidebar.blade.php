@@ -36,7 +36,7 @@
               <li class="nav-item">
                 <a href="kota" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Kota</p>
+                  <p>Kabupaten/Kota</p>
                 </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">

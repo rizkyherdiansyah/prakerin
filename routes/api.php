@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\ProvinsiController;
 use App\Http\Controllers\Api\ApiController;
+use App\Http\Controllers\Api\GlobalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,4 +31,8 @@ Route::delete('provinsi/{id}',[ProvinsiController::class, 'destroy']);
 
 //API KASUS
 Route::get('kasus2',[ApiController::class, 'index']);
-Route::get('provinsi2',[ApiController::class, 'provinsi2']);
+Route::get('kasus2/provinsi2',[ApiController::class, 'provinsi2']);
+Route::get('kasus2/provinsi2/kota2',[ApiController::class, 'kota2']);
+Route::get('kasus2/provinsi2/kota2/kecamatan2',[ApiController::class, 'kecamatan2']);
+Route::get('kasus2/provinsi2/kota2/kecamatan2/kelurahan2',[ApiController::class, 'kelurahan2']);
+Route::get('global',[ApiController::class, 'global']);

@@ -15,8 +15,8 @@
                         <thead>
                             <tr>
                               <th scope="col">No</th>
-                              <th scope="col">Kode Kota</th>
-                              <th scope="col">Nama Kota</th>
+                              <th scope="col">Kode Kab/Kota</th>
+                              <th scope="col">Nama Kab/Kota</th>
                               <th scope="col">Provinsi</th>
                               <th scope="col">Action</th>
                                     

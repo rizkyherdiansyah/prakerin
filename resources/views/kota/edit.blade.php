@@ -12,11 +12,11 @@
             @csrf
             @method('PUT')
             <div class="mb-3">
-                <label for="" class="form-label">Kode Kota</label>
+                <label for="" class="form-label">Kode Kab/Kota</label>
                 <input type="text" name="kode_kota" class="form-control" value="{{$kota->kode_kota}}" >  
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Nama Kota</label>
+                <label for="" class="form-label">Nama Kab/Kota</label>
                 <input type="text" name="nama_kota" class="form-control" value="{{$kota->nama_kota}}" >
             </div>
             <div class="mb-3">

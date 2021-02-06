@@ -11,12 +11,12 @@
          <form action="{{route('kota.store')}}" method="POST">
             @csrf
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Kode Kota</label>
+                <label for="exampleInputEmail1" class="form-label">Kode Kab/Kota</label>
                 <input type="text" name="kode_kota" class="form-control">  
             </div>
          
             <div class="mb-3">
-                <label for="text" class="form-label">Nama Kota</label>
+                <label for="text" class="form-label">Nama Kab/Kota</label>
                 <input type="text" name="nama_kota" class="form-control">
             </div>
             <div class="mb-3">
