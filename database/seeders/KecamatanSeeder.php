@@ -25,7 +25,7 @@ class KecamatanSeeder extends Seeder
 			['kode_kecamatan' => 1101040, 'id_kota' => 1, 'nama_kecamatan' => "SALANG"],
 			['kode_kecamatan' => 1101050, 'id_kota' => 1, 'nama_kecamatan' => "SIMEULUE BARAT"],
 			['kode_kecamatan' => 1101051, 'id_kota' => 1, 'nama_kecamatan' => "ALAFAN"],
-			['kode_kecamatan' => 1102010, 'id_kota' => 2, 'nama_kecamatan' => "PULAU BANYAK"],
+			['kode_kecamatan' => 1102010, 'id_kota' => 1, 'nama_kecamatan' => "PULAU BANYAK"],
 			['kode_kecamatan' => 1102011, 'id_kota' => 2, 'nama_kecamatan' => "PULAU BANYAK BARAT"],
 			['kode_kecamatan' => 1102020, 'id_kota' => 2, 'nama_kecamatan' => "SINGKIL"],
 			['kode_kecamatan' => 1102021, 'id_kota' => 2, 'nama_kecamatan' => "SINGKIL UTARA"],
