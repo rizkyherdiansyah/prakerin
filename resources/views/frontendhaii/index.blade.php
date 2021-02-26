@@ -55,13 +55,13 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
         
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+      <a href="" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span>ADMIN</a>
 
     </div>
   </header><!-- End Header -->
