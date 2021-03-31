@@ -57,9 +57,7 @@
       
       </nav><!-- .nav-menu -->
 
-      <a href="{{ route('login') }}" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span> LOGIN</a>
-      <a href="{{ route('register') }}" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span> DAFTAR</a>
-    </div>
+     
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->

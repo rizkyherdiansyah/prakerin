@@ -22,7 +22,7 @@
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
+            <a href="#">
               <i class="nc-icon nc-globe"></i>
               <p>Kasus Indonesia</p>
             </a>
@@ -63,24 +63,7 @@
                   <p>Kasus IND</p>
                 </a>                                      
           </li>
-          <li>
-          <li>
-            <a href="./tables.html">
-              <i class="nc-icon nc-world-2"></i>
-              <p>Kasus Global</p>
-            </a>
-             <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Negara</p>
-                </a> 
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Kasus</p>
-                </a>    
+         
           </li>
           <li>
           </li>

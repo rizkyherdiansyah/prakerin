@@ -1,15 +1,27 @@
 @extends('layouts.admin')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                @if (session('message'))
+                    <div class="alert alert-success" role="alert">
+                        {{ session('message') }}
+                    </div>
+                @endif
+                <div class="card">
+                    <div class="card-header">
 
-         <div class="card-body">
+                    </div>
 
-         <a href="{{route('kasus2.create')}}"class="btn btn-info float-right"><b>Tambah Data</b></a>   
-
-                    <table class="table">
+                    <div class="card-body">
+                        <a href="{{ route('kasus2.create') }}" class="btn btn-primary mb-3 float-right"><i
+                                class="fa fa-plus-circle"></i>
+                            Tambah Data
+                        </a>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="datatable">
+                                <thead>
+                                    <tr>
                         <thead>
                             <tr>
                               <th scope="col">No</th>
@@ -19,11 +31,11 @@
                               <th scope="col">Jumlah Sembuh</th>
                               <th scope="col">Jumlah Meninggal</th>
                               <th scope="col">Tanggal</th>
-                              <th scope="col">Action</th>
+                              <th scope="col">Aksi</th>
                                     
                                 </tr>
                                 </thead>
-                                <tbody>
+                                
 
                                     @php $no = 1 ; @endphp
                                 @foreach($kasus2 as $data)
@@ -41,20 +53,22 @@
                                     <td>{{ $data->jumlah_meninggal }}</td>
                                     <td>{{ $data->tanggal }}</td>
 
-                                    <td>
-                                    <form action="{{route('kasus2.destroy' , $data->id)}}" method="POST">
-                                    @csrf
-                                    @method('DELETE')
-                                    <a href="{{route('kasus2.edit', $data->id)}}"class="btn btn-success float-right">Edit</a>
-                                    <a href="{{route('kasus2.show', $data->id)}}"class="btn btn-warning float-right">Show</a>
-                                    <button type="submit" class="btn btn-danger float-right">Delete</a>
+                         <td style="text-align: center;">
+                             <form action="{{ route('kasus2.destroy', $data->id) }}" method="POST">
+                                 @csrf
+                                 @method('DELETE')
+                                <a href="{{ route('kasus2.edit', $data->id) }}"
+                                    class="btn btn-outline-success btn-sm"><i class="fa fa-edit">
+                                        Edit</i></a>
+                                        <button type="submit" class="btn btn-outline-danger btn-sm"
+                                           onclick="return confirm('Apakah Anda Yakin ?')"><i
+                                            class="fa fa-trash-alt"> Hapus</i></button>
                                      </form>
-                                </td>
-                            </tr>      
-                        </tbody>
+                                   </tr> 
+                                </td>   
                     @endforeach 
-                    </table> 
-                                                    
+                        </tbody>
+                    </table>                                 
                 </div>
             </div>
          </div>
